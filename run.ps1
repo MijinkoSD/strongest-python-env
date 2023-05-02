@@ -7,6 +7,7 @@ pip install -U pip
 pip install -r .\requirements.txt
 
 # この下で任意のファイルの実行をする
+python .\sample\hello.py # Hello World!
 
 
 # 終了時（任意）
