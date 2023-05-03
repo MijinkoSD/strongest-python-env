@@ -10,7 +10,7 @@ Write-Host "-----------------------" -ForegroundColor Blue
 . (Join-Path -Path $PSScriptRoot -ChildPath "/type-check.ps1")
 
 Write-Host "-----------------------" -ForegroundColor Blue
-Write-Host "テストを開始します。" -ForegroundColor Blue
+Write-Host "単体テストを開始します。" -ForegroundColor Blue
 Write-Host "-----------------------" -ForegroundColor Blue
 . (Join-Path -Path $PSScriptRoot -ChildPath "/run-test.ps1")
 
